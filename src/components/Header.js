@@ -17,7 +17,7 @@ const Header = (props) => {
             <img src="/images/about-icon.png" alt="ABOUT" />
             <span> ABOUT</span>
           </a>
-          <a>
+          <a onClick={() => history.push('/blogs')}>
             <img src="/images/blogs-icon.svg" alt="BLOGS" />
             <span> BLOGS</span>
           </a>
