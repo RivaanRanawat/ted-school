@@ -7,7 +7,7 @@ const ImgSlider = (props) => {
   let settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 650,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -16,25 +16,43 @@ const ImgSlider = (props) => {
     <Carousel {...settings}>
       <Wrap>
         <a>
-          <img src="/images/slider-badging.jpg" alt="" />
+          <img src="/images/image-slider-1.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-scale.jpg" alt="" />
+          <img src="/images/image-slider-2.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-badag.jpg" alt="" />
+          <img src="/images/image-slider-3.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
         <a>
-          <img src="/images/slider-scales.jpg" alt="" />
+          <img src="/images/image-slider-4.png" alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/image-slider-5.png" alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/image-slider-6.png" alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/image-slider-7.png" alt="" />
         </a>
       </Wrap>
     </Carousel>
@@ -42,7 +60,6 @@ const ImgSlider = (props) => {
 };
 
 const Carousel = styled(Slider)`
-
   & > button {
     opacity: 0;
     height: 100%;
