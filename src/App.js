@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Detail from "./components/Detail";
 import About from "./components/About";
 import Blogs from "./components/Blogs";
+import LiveStream from "./components/LiveStream";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/detail/:id">
-            <Detail />
+          <Route path="/livestream">
+            <LiveStream />
           </Route>
           <Route path="/about-us">
             <About />

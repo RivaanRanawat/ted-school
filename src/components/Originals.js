@@ -8,14 +8,13 @@ const Originals = (props) => {
 
   return (
     <Container>
-      <h4>Originals</h4>
       <Content>
         {movies &&
           movies.map((movie, key) => (
             <Wrap key={key}>
               {movie.id}
-              <Link to={`/detail/` + movie.id}>
-                <img src={movie.cardImg} alt={movie.title} />
+              <Link to="/livestream">
+                <img src='/images/TED.png' alt={movie.title} />
               </Link>
             </Wrap>
           ))}
@@ -26,6 +25,7 @@ const Originals = (props) => {
 
 const Container = styled.div`
   padding: 0 0 26px;
+  margin-top: 65px;
 `;
 
 const Content = styled.div`
